@@ -72,7 +72,7 @@ func detectText(fileName : URL) -> [CIFeature]? {
 
 
 let inputURL = URL(fileURLWithPath: "/tmp/ocr.png")
-var recognitionLanguages = ["en-US"]
+var recognitionLanguages = ["zh-Hans", "zh-Hant", "ja", "en-US"]
 
 do {
     
